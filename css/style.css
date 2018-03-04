@@ -133,7 +133,7 @@ h2 {
 }
 
 .banner2 {
-  position: absolute;
+  position: relative;
   height: 400px;
 }
 
@@ -144,7 +144,7 @@ h2 {
 
 #events_main {
   width: 100%;
-  margin: 0 auto;
+  height: 50%;
 }
 
 #banner_img {
@@ -246,7 +246,8 @@ h2 {
 .col-lg-7,
 .col-lg-8 {
   color: white;
-  background-color: rgba(33,33,33,0.7);
+  background-color: #212121;
+  /* background-color: rgba(33,33,33,0.7); */
   /* opacity: 0.7; */
   /* border-right: solid; */
   /* background-color: #FFF59D; */
