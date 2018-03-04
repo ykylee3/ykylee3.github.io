@@ -114,13 +114,8 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 100%;
+  height: 500px;
   width: 100%;
-}
-
-/* Position thefirstrow(about) section */
-.about{
-  margin-top: 400px;
 }
 
 /* style for banner containing logo */
@@ -204,6 +199,7 @@ h2 {
   text-align: center;
   padding: 20px 0;
   width: 100%;
+  height: 500px;
 }
 
 /* First row of content */
@@ -547,10 +543,6 @@ h2 {
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
-}
-
-.twitter-timeline{
-  height:300px;
 }
 
 @media screen and (max-width: 760px) {
