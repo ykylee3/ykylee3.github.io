@@ -119,13 +119,13 @@ h2 {
 }
 
 /* style for banner containing logo */
-.banner {
+/* .banner {
   text-align:center;
   width: 100%;
-  height: 600px;
+  height: 600px; */
   /* padding-left: 100px;
   padding-right: 100px; */
-  background-size: cover;
+  /* background-size: cover;
   margin-top: -10px;
   margin-bottom: 5px;
   position: relative;
@@ -135,7 +135,7 @@ h2 {
 .banner2 {
   position: absolute;
   height: 400px;
-}
+} */
 
 #articles_main {
   width: 100%;
@@ -147,19 +147,19 @@ h2 {
   margin: 0 auto;
 }
 
-#banner_img {
+/* #banner_img {
   position: absolute;
   width: 100%;
   height: 600px;
   background-size: cover;
   background-repeat: repeat-x;
-}
+} */
 
 #logo {
   position: absolute;
-  display: inline-block;
+  /* display: inline-block;
   left: 50%;
-  margin-left: -150px;
+  margin-left: -150px; */
   z-index:3;
   /* padding-left: 550px;
   padding-right: 550px; */
@@ -168,9 +168,10 @@ h2 {
 }
 
 .logoimg{
-  position: absolute;
+  position: relative;
   display: block;
   left: 50%;
+  margin-left: 150px;
   width: 300px;
   height: 300px;
 }
@@ -498,8 +499,8 @@ h2 {
   #logo {
     position: absolute;
     display: inline-block;
-    left: 50%;
-    margin-left: -200px;
+    /* left: 50%;
+    margin-left: -200px; */
     z-index:3;
     /* padding-left: 550px;
     padding-right: 550px; */
@@ -507,17 +508,17 @@ h2 {
     /* margin: 0 auto; */
   }
 
+  /* logo */
   .logoimg{
-    position: absolute;
-    display: inline-block;
+    position: relative;
+    display: block;
     left: 50%;
-    margin-left: -100px;
+    margin-left: -50px;
     width: 100px;
     height: 100px;
     /* margin: 0 auto; */
   }
 
-  /* logo */
   #circle {
     position: absolute;
     display: inline-block;
@@ -545,7 +546,7 @@ h2 {
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   #logo {
     position: relative;
     display: inline-block;
@@ -556,6 +557,16 @@ h2 {
   }
 
   /* logo */
+  .logoimg{
+    position: relative;
+    display: block;
+    left: 50%;
+    margin-left: -75px;
+    width: 150px;
+    height: 150px;
+    /* margin: 0 auto; */
+  }
+
   #circle {
     position: absolute;
     display: inline-block;
@@ -596,8 +607,4 @@ h2 {
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
-}
-
-@media screen and (min-width: 1200px) {
-
 }
