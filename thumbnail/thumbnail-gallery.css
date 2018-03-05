@@ -1,0 +1,194 @@
+body {
+    /* background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    min-height: 100vh; */
+    font: normal 16px sans-serif;
+}
+
+html, body {
+    background: #000;
+    height: 100%;
+    background-size: cover;
+    text-align: center;
+}
+
+/* style for banner containing logo */
+.banner {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 2px;
+  margin: 5px;
+  /* position: relative; */
+  /* z-index: 0; */
+}
+
+/* Image in the banner  */
+#img {
+  height: 500px;
+  width: 100%;
+  position: absolute;
+  display: block;
+  margin-left: -20px;
+}
+
+/* logo */
+#circle {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 2em;
+  font-weight: 300;
+  padding-top: 50px;
+  border-radius: 95%;
+  height: 220px;
+  width: 200px;
+  background-color: #fff;
+}
+
+/* navigation menu container */
+.navmenu {
+  text-align: center;
+  background-color: #212121;
+  height: 70px;
+  margin-bottom: 2px;
+}
+
+/* nav menu */
+.navigation {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.navigation li {
+    float: none;
+    display: inline-block;
+    color: white;
+    padding: 25px;
+    padding-top: 15px;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.navigation li:hover {
+  height: 70px;
+  background-color: #E0E0E0;
+  color: black;
+  cursor: pointer;
+}
+
+.navigation li a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a:hover {
+  color: black;
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 18px;
+    color: #85878c;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.tz-gallery .thumbnail:hover {
+    transform: translateY(-10px) scale(1.02);
+}
+
+.tz-gallery .lightbox img {
+    border-radius: 4px 4px 0 0;
+}
+
+.tz-gallery .caption{
+    padding: 26px 30px;
+    text-align: center;
+}
+
+.tz-gallery .caption h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.tz-gallery .caption p {
+    font-size: 12px;
+    color: #7b7d7d;
+    margin: 0;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+/* .col-sm-6, .col-md-4 {
+  background-color: black;
+} */
+/* Footer section */
+.footer {
+  position: relative;
+  display: block;
+  height: 60px;
+  bottom: 0;
+  color: white;
+  background-color: #000;
+  /* padding-left: 42%; */
+  border-top-style: solid;
+}
+
+#icons {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: -30px;
+}
+
+#icons .fab {
+    color: white;
+    margin: 5px 15px;
+    position: relative;
+    bottom: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+#icons .twitter:hover {
+    color:#6cadde;
+    bottom: 5px;
+}
+
+#icons .facebook:hover {
+    color:#3b5998;
+    bottom: 5px;
+}
+
+#icons .instagram:hover {
+    color:#517fa6;
+    bottom: 5px;
+}
