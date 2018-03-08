@@ -4,7 +4,17 @@
 /*Edited by Yoki 04/03/2018*/
 
 /* style for body */
-html, body {
+html {
+  font-size: 16px;
+  line-height: 23px;
+  background-color: #212121;
+  height: 100%;
+  background-size: cover;
+  text-align: center;
+  margin: 0 auto;
+}
+
+body {
   background-color: #212121;
   height: 100%;
   background-size: cover;
@@ -144,7 +154,9 @@ h2 {
 
 #events_main {
   width: 100%;
-  height: 50%;
+  height: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 
 /* #banner_img {
@@ -194,7 +206,8 @@ h2 {
 }
 
 /*Basic styling of rows*/
-.firstrow, .secondrow {
+.firstrow,
+.secondrow {
   float: left;
   position: relative;
   text-align: center;
@@ -232,6 +245,16 @@ h2 {
   text-align: left;
 }
 
+.clubhouse{
+  background-image: url("../assets/clubhouse_index.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
 /* style for rows in every containers */
 /* .row {
   margin:0;
@@ -305,6 +328,7 @@ h2 {
 }
 
 .text {
+  position: relative;
   text-align: center;
   margin: 0px;
   color: black;
@@ -331,6 +355,7 @@ h2 {
 }
 
 .crew {
+  position: relative;
   background-color: white;
   vertical-align: middle;
   margin: 0 auto;
@@ -360,6 +385,16 @@ h2 {
   transition: all 0.5s ease-in-out;
 }
 
+.events_index {
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; */
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
 /* Footer section */
 .footer {
   clear: both;
@@ -368,6 +403,7 @@ h2 {
   color: white;
   background-color: #212121;
   padding: 2rem;
+  margin-top: 20px;
 }
 
 .img_art {
@@ -434,6 +470,23 @@ h2 {
   color: white;
   font-weight: bold;
   padding: 10px;
+}
+
+.about{
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+#clubhouse_about{
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+#ste_about{
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
 }
 
 /*copyright footer*/
@@ -528,6 +581,10 @@ h2 {
     height: 200px;
   }
 
+  body {
+    font-size: 12px;
+  }
+
   #logo {
     position: absolute;
     display: inline-block;
@@ -579,6 +636,8 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
+  font-size: 14px;
+
   #logo {
     position: relative;
     display: inline-block;
