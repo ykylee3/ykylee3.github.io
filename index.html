@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/animate.css">
   <!-- Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <!-- Font Awesome -->
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 </head>
@@ -18,7 +19,7 @@
 <body>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container-fluid">
+    <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Star Trek Éire</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -57,62 +58,66 @@
     </div>
   </nav>
 
-  <div class="row">
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <div id="logo">
-          <div class="row">
-                <img class="logoimg animated fadeInUp img-responsive" src="assets/STE_logo_201216.png">
-          </div>
-        </div>
+  <div class="jumbotron">
+    <div class="container">
+      <div id="particles-js"></div>
+      <div class="img-fluid mx-auto d-block text-center" id="logo">
+        <img class="logoimg animated fadeInUp" src="assets/STE_logo_201216.png">
       </div>
     </div>
   </div>
 
+<!-- Particles animation -->
+  <!-- <div class="jumbotron">
+      <div class="container-fluid">
+        <div id="particles-js"></div>
+      </div>
+  </div> -->
+
   <!-- <section class="firstrow"> -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-          <img class="img-fluid" src="assets/spock.jpg" alt="spock"></img>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-          <a href="about.html"><h1>Star Trek Éire</h1></a>
-          <p>Star Trek Eire is a not for profit group of Star Trek fans based in Ireland.
-            Our aim is to bring the universe of Star Trek to new and old
-            fans through events, screenings, our website, Facebook page
-            and Twitter account.</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <img class="img-fluid" src="assets/spock.jpg" alt="spock"></img>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <a href="about.html"><h1>Star Trek Éire</h1></a>
+        <p>Star Trek Eire is a not for profit group of Star Trek fans based in Ireland.
+          Our aim is to bring the universe of Star Trek to new and old
+          fans through events, screenings, our website, Facebook page
+          and Twitter account.</p>
           <a href="about.html"><p class="learn_more">Click here to learn more</p></a>
         </div>
         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
           <div class="clubhouse">
-          <h1>The Clubhouse</h1>
-          <p>The clubhouse is our charity partner.</p>
-          <p><a class="btn btn-primary" href="#" role="button">Learn More</a></p>
-        </div>
+            <h1>The Clubhouse</h1>
+            <p>The clubhouse is our charity partner.</p>
+            <p><a class="btn btn-primary" href="#" role="button">Learn More</a></p>
+          </div>
         </div>
       </div>
-    <!-- </div>
-  </section>
+      <!-- </div>
+    </section>
 
-  <div class="clearfix visible-md"></div>
+    <div class="clearfix visible-md"></div>
 
-  <section class="secondrow">
+    <section class="secondrow">
     <div class="container"> -->
-      <div class="row">
-        <div class="events_index col-lg-5 col-md-5 col-sm-12 col-xs-12">
-          <h2>Events</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-          <h2>Gallery</h2>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-          <h2>Twitter</h2>
-          <a class="twitter-timeline" href="https://twitter.com/startrekeire?ref_src=twsrc%5Etfw" data-chrome="nofooter noheader" data-theme="dark" data-height="400">Tweets by startrekeire</a>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
+    <div class="row">
+      <div class="events_index col-lg-5 col-md-5 col-sm-12 col-xs-12">
+        <h2>Events</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <h2>Gallery</h2>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <h2>Twitter</h2>
+        <a class="twitter-timeline" href="https://twitter.com/startrekeire?ref_src=twsrc%5Etfw" data-chrome="nofooter noheader" data-theme="dark" data-height="400">Tweets by startrekeire</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
     </div>
+  </div>
   <!-- </section> -->
 
   <section class="contact">
@@ -190,6 +195,7 @@
   <!-- Custom scripts for this template -->
   <script src="js/scrollNav.js"></script>
   <script src="js/creative.min.js"></script>
+  <script src="js/particles.js"></script>
 
 </body>
 </html>

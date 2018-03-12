@@ -76,48 +76,6 @@ h2 {
   background-color: transparent;
 }
 
-@media (min-width: 992px) {
-  #mainNav {
-    border-color: transparent;
-    background-color: transparent;
-  }
-  #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
-  }
-  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fff;
-  }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link {
-    padding: 0.5rem 1rem;
-  }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link,
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: rgba(255, 255, 255, 0.7);
-  }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #fff;
-  }
-  #mainNav.navbar-shrink {
-    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: #fff;
-  }
-  #mainNav.navbar-shrink .navbar-brand {
-    color: #007129;
-  }
-  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f05f40;
-  }
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #212529;
-  }
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #F05F40;
-  }
-}
-
 /* Sets the backgrounf banner image */
 .jumbotron{
   background-image: url("../assets/earth-space.jpg");
@@ -168,42 +126,41 @@ h2 {
 } */
 
 #logo {
-  position: absolute;
-  /* display: inline-block;
-  left: 50%;
-  margin-left: -150px; */
   z-index:3;
-  /* padding-left: 550px;
-  padding-right: 550px; */
-  /* margin-top: -15px; */
-  /* margin: 0 auto; */
 }
 
 .logoimg{
-  position: relative;
-  display: block;
-  left: 50%;
-  margin-left: 150px;
-  width: 300px;
-  height: 300px;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 /* logo */
-#circle {
+/* #circle {
   position: absolute;
   display: inline-block;
   /* left: 50%;
   right: 50%; */
   /* margin-top: -10px; */
-  font-size: 2em;
+  /* font-size: 2em;
   font-weight: 300;
-  /* padding: 50px; */
+  /* padding: 50px;
   border-radius: 95%;
   height: 300px;
   width: 300px;
   background-color: #FAFAFA;
   margin: 0 auto;
-}
+} */
 
 /*Basic styling of rows*/
 .firstrow,
@@ -617,26 +574,7 @@ h2 {
   }
 
   #logo {
-    position: absolute;
-    display: inline-block;
-    /* left: 50%;
-    margin-left: -200px; */
-    z-index:3;
-    /* padding-left: 550px;
-    padding-right: 550px; */
-    /* margin-top: -15px; */
-    /* margin: 0 auto; */
-  }
-
-  /* logo */
-  .logoimg{
-    position: relative;
-    display: block;
-    left: 50%;
-    margin-left: -50px;
-    width: 100px;
-    height: 100px;
-    /* margin: 0 auto; */
+    max-height: 50px;
   }
 
   #circle {
@@ -670,23 +608,6 @@ h2 {
   font-size: 14px;
 
   #logo {
-    position: relative;
-    display: inline-block;
-    z-index:3;
-    /* padding-left: 550px;
-    padding-right: 550px; */
-    /* margin-top: -10px; */
-  }
-
-  /* logo */
-  .logoimg{
-    position: relative;
-    display: block;
-    left: 50%;
-    margin-left: -75px;
-    width: 150px;
-    height: 150px;
-    /* margin: 0 auto; */
   }
 
   #circle {
@@ -728,5 +649,50 @@ h2 {
   .mastfoot,
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  #logo {
+  }
+
+  #mainNav {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #fff;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link {
+    padding: 0.5rem 1rem;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #fff;
+  }
+  #mainNav.navbar-shrink {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #fff;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #007129;
+  }
+  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+    color: #f05f40;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #F05F40;
   }
 }
