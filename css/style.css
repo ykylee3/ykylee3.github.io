@@ -660,6 +660,10 @@ h2 {
   }
 }
 
+.fot_col1 {
+  text-align: left;
+}
+
 @media screen and (max-width: 768px) {
   font-size: 14px;
 
