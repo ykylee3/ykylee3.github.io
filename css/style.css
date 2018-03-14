@@ -146,8 +146,8 @@ h2 {
 }
 
 /*Basic styling of rows*/
-.row,
-.row {
+.firstrow,
+.secondrow {
   float: left;
   position: relative;
   text-align: center;
