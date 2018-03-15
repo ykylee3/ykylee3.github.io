@@ -177,6 +177,15 @@ h2 {
   text-align: left;
 }
 
+.index_title a{
+  text-decoration: none;
+  color: white;
+}
+
+.startrek_index{
+  text-align: left;
+}
+
 .clubhouse{
   background-image: url("../assets/clubhouse_index.jpg");
   background-size: cover;
@@ -255,8 +264,9 @@ h2 {
   margin-top: 5px;
   margin-bottom: 5px;
   align-items: center;
-  background-color: #F0F3F4;
-  padding: 10px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .text {
@@ -291,6 +301,10 @@ h2 {
   background-color: white;
   vertical-align: middle;
   margin: 0 auto;
+}
+
+#img_crew{
+  max-width: 90%;
 }
 
 .square {
@@ -334,8 +348,31 @@ h2 {
   /* bottom: 0; */
   color: white;
   background-color: #212121;
-  padding: 2rem;
+  padding: 0.7rem;
   margin-top: 20px;
+}
+
+.footer h5{
+  padding-bottom: 10px;
+}
+
+.footer_header h5{
+  text-align: left;
+}
+
+.footer_content{
+  text-align: left;
+  text-decoration: none;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  vertical-align: top;
+}
+.footer_content a{
+  color: white;
+}
+
+.footer_content li{
+  font-size: 0.9em;
 }
 
 .img_art {
@@ -508,11 +545,13 @@ h2 {
   color: white;
   /* color: rgba(255,255,255,.5); */
   background-color: #212121;
+  font-size: 0.8em;
 }
 
 /* Padding for spacing */
 .inner {
-  padding: 1rem;
+  text-align: right;
+  padding-bottom: 5px;
 }
 
 .img-fluid {
@@ -553,14 +592,14 @@ h2 {
 }
 
 #icons {
-    text-align: center;
+    text-align: left;
     padding-top: 10px;
     padding-bottom: -30px;
 }
 
 #icons .fab {
     color: white;
-    margin: 5px 15px;
+    margin: 5px 5px;
     position: relative;
     bottom: 0;
     transition: all 0.2s ease-in-out;
@@ -576,8 +615,8 @@ h2 {
     bottom: 5px;
 }
 
-#icons .instagram:hover {
-    color:#517fa6;
+#icons .youtube:hover {
+    color: rgba(255, 0, 0, 0.7);
     bottom: 5px;
 }
 
@@ -649,7 +688,6 @@ h2 {
   }
 
   .mastfoot {
-    position: fixed;
     bottom: 0;
     font-size: 0.8em;
   }
