@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/animate.css">
   <!-- Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
   <!-- Font Awesome -->
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 </head>
@@ -19,6 +20,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
+      <img class="navlogoimg" src="assets/STE_logo_201216_mini.png">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Star Trek Éire</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -101,12 +103,53 @@
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <h2>Gallery</h2>
+          <div class="container">
+              <div class="gallerywidget tz-gallery">
+                <!-- <p class="page-description text-center">50th Anniversary Party</p> -->
+                  <div class="row">
+                      <div class=" col-sm-6 col-md-6 col-lg-6">
+                          <a class="lightbox" href="assets/bridge.jpg">
+                              <img src="assets/bridge.jpg" alt="Bridge">
+                          </a>
+                      </div>
+                      <div class=" col-sm-6 col-md-6 col-lg-6">
+                          <a class="lightbox" href="assets/2.jpg">
+                              <img src="assets/2.jpg" alt="Park">
+                          </a>
+                      </div>
+                      <div class=" col-sm-6 col-md-6 col-lg-6">
+                          <a class="lightbox" href="assets/3.jpg">
+                              <img src="assets/3.jpg" alt="Tunnel">
+                          </a>
+                      </div>
+                      <div class=" col-sm-6 col-md-6 col-lg-6">
+                          <a class="lightbox" href="assets/4.jpg">
+                              <img src="assets/4.jpg" alt="Traffic">
+                          </a>
+                      </div>
+                      <div class=" col-sm-6 col-md-6 col-lg-6">
+                          <a class="lightbox" href="assets/5.jpg">
+                              <img src="assets/5.jpg" alt="Coast">
+                          </a>
+                      </div>
+                      <div class=" col-sm-6 col-md-6 col-lg-6">
+                          <a class="lightbox" href="assets/6.jpg">
+                              <img src="assets/6.jpg" alt="Rails">
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
           <h2>Twitter</h2>
+          <div class="twitter">
+            <div class="container">
           <a class="twitter-timeline" href="https://twitter.com/startrekeire?ref_src=twsrc%5Etfw" data-chrome="nofooter noheader" data-theme="dark" data-height="400">Tweets by startrekeire</a>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
+        </div>
+      </div>
       </div>
     </div>
   </div>
@@ -235,6 +278,10 @@
 <!-- Custom scripts for this template -->
 <script src="js/scrollNav.js"></script>
 <script src="js/creative.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
 
 </body>
 </html>
