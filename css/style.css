@@ -93,7 +93,7 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 500px;
+  height: 700px;
   width: 100%;
 }
 
@@ -159,12 +159,8 @@ h2 {
 /*Basic styling of rows*/
 .firstrow,
 .secondrow {
-  float: left;
-  position: relative;
-  text-align: center;
-  padding: 20px 0;
-  width: 100%;
-  height: 500px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* First row of content */
