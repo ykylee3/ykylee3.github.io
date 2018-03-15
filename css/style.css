@@ -725,8 +725,8 @@ h2 {
     font-size: 12px;
   }
 
-  #logo {
-    max-height: 50px;
+  #logo img {
+    max-height: 150px;
   }
 
   #circle {
