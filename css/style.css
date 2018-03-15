@@ -213,6 +213,10 @@ h2 {
   text-align: center;
 } */
 
+.about .col-lg-7 .col-md-7 .col-sm-9 .col-xs-12{
+    background: white;
+}
+
 /* column stylings */
 .col-lg-2,
 .col-lg-3,
@@ -222,7 +226,7 @@ h2 {
 .col-lg-7,
 .col-lg-8 {
   color: white;
-  background-color: #212121;
+  background-color: rgba(255, 255, 255, 0)
   /* background-color: rgba(33,33,33,0.7); */
   /* opacity: 0.7; */
   /* border-right: solid; */
@@ -237,7 +241,7 @@ h2 {
 .col-md-7,
 .col-md-8 {
   color: white;
-  /* border-right: solid; */
+  background-color: rgba(255, 255, 255, 0)
   /* background-color: #FFF59D; */
 }
 
@@ -245,14 +249,14 @@ h2 {
   clear: both;
   color: white;
   /* border-right: solid; */
-  /* background-color: #FFF59D; */
+  background-color: rgba(255, 255, 255, 0)
 }
 
 .col-xs-12 {
   clear: both;
   color: white;
   /* border-right: solid; */
-  /* background-color: #FFF59D; */
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .col-lg-4:hover, .col-lg-8:hover {
@@ -263,7 +267,7 @@ h2 {
 
 .col-md-3:hover, .col-md-6:hover {
   /* cursor: pointer; */
-  /* background-color: #FF7043; */
+  /*background-color: #FF7043; */
   transition: all 0.2s ease-in-out;
 }
 
@@ -455,6 +459,16 @@ h2 {
 .about{
   text-align: left;
   padding-bottom: 30px;
+}
+
+.about_club{
+  background: white;
+  color: black;
+  padding: 20px;
+}
+
+.about_club h2{
+  color: black;
 }
 
 #clubhouse_about{
