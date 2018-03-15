@@ -5,13 +5,13 @@
 
 /* style for body */
 @font-face {
-  font-family: Federation;
-  /* src: url(fonts/raleway.tiff); */
+  font-family: 'TNGcredits';
+  src: url('../fonts/TNG_Credits.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: Krupper;
-  /* src: url(fonts/raleway.tiff); */
+  font-family: 'TNGtitle';
+  src: url('/fonts/TNG_Title.ttf') format('truetype');
 }
 
 html {
@@ -41,6 +41,10 @@ h1 {
 h2 {
   font-size: 2em;
   color: white;
+}
+
+.article h5{
+  font-family: 'TNGcredits';
 }
 
 #mainNav {
@@ -716,8 +720,8 @@ h2 {
     font-size: 12px;
   }
 
-  #logo {
-    max-height: 50px;
+  #logo img {
+    max-height: 150px;
   }
 
   #circle {
