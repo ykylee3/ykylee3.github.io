@@ -4,6 +4,16 @@
 /*Edited by Yoki 04/03/2018*/
 
 /* style for body */
+@font-face {
+  font-family: Federation;
+  /* src: url(fonts/raleway.tiff); */
+}
+
+@font-face {
+  font-family: Krupper;
+  /* src: url(fonts/raleway.tiff); */
+}
+
 html {
   font-size: 16px;
   line-height: 23px;
