@@ -19,39 +19,39 @@
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
+    <div class="container-fluid">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Star Trek Éire</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
+          <li class="nav-item">
+            <a class="nav-link" href="main.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="articles.html">Articles</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Articles <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="mediagallery.html">Media Gallery</a>
+            <a class="nav-link" href="gallery.html">Media Gallery</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Events
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="nav-link dropdown-item" href="events.html">Upcoming Events</a>
-              <a class="nav-link dropdown-item" href="#">Past Events</a>
+              <a class="dropdown-item" href="#">Upcoming Events</a>
+              <a class="dropdown-item" href="#">Past Events</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="merchandise.html">Merchandise</a>
+            <a class="nav-link" href="#">Merchandise</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="behindthescene.html">Behind the Scenes</a>
+            <a class="nav-link" href="#">Behind the Scenes</a>
           </li>
         </ul>
       </div>
@@ -62,16 +62,21 @@
   <header class="banner2">
     <div class="container-fluid">
       <div class="row">
-        <img id="articles_main" src="assets/articles_main.jpg"></img>
+        <div id="particles-js"></div>
       </div>
     </div>
   </header>
 
   <!-- Article Section - Bebito -->
+  <div class="container" id="articlehead">
+    <h2>Articles</h2>
+  </div>
+
     <section class="article">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-3 col-md-2 col-sm-4 col-xs-12">
+          <div class="col-lg-1"></div>
+          <div class="custom_col col-lg-3 col-md-2 col-sm-4 col-xs-12">
             <h5>Rediscovering Star Trek Enterprise</h5>
             <img id="articleimage" src="assets/article1.jpg"/>
             <p>Did you watch Star Trek Enterprise when it first appeared on TV 15 years ago? </p>
@@ -109,7 +114,7 @@
     </div>
         </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+          <div class="custom_col col-lg-3 col-md-3 col-sm-4 col-xs-12">
             <h5>2016 – A Year in Review</h5>
             <img id="articleimage" src="assets/article2.jpg"/>
             <p>Here's a breif review of some of our favourite moments from throughout 2016.</p>
@@ -139,7 +144,7 @@
   </div>
           </div>
 
-          <div class="col-lg-3 col-md-2 col-sm-4 col-xs-12">
+          <div class="custom_col col-lg-3 col-md-2 col-sm-4 col-xs-12">
             <h5>Garak</h5>
             <p>Andrew Robinson plays Garak in ‘Tinker Tailor Soldier Spy’,
                part of the Deep Space Nine TV series coming to Blu-ray someday we hope!</p>
@@ -174,33 +179,7 @@
              </div>
           </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-            <h5>THE IRISH IN SPACE</h5>
-            <img id="articleimage" src="assets/article4.jpg"/>
-            <p>You may not know how important Ireland is to Star Trek.  Well we’re here to fix that.</p>
-            <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalLong4">Read More</button>
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModalLong4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle4" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="modaltitle">THE IRISH IN SPACE</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-              <div class="modal-body">
-                <div class="italic">
-                  <p id="italics">You may not know how important Ireland is to Star Trek.  Well we’re here to fix that.</p>
-                </div>
-              </div>
-              <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-          </div>
-        </div>
+          <div class="col-lg-2"></div>
         </div>
       </div>
     </section>
@@ -208,7 +187,8 @@
     <section class="article">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-5 col-md-3 col-sm-4 col-xs-12">
+          <div class="col-lg-1"></div>
+          <div class="custom_col col-lg-3 col-md-3 col-sm-4 col-xs-12">
             <h5>Watching Star Trek with The Next Generation!</h5>
             <p>While giving my wife a lie on Saturday mornings, one of the things I’ve loved doing for the last couple of
               years with my now 7 year old daughter is watching my favourite TV show Star Trek The Next Generation.  Some people
@@ -250,7 +230,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+          <div class="custom_col col-lg-3 col-md-3 col-sm-4 col-xs-12">
             <h5>Odo – A Life in Pitchers</h5>
             <p>I managed to catch up with one of my favourite stars recently, Odo.  When he suggested we meet in St. Stephen’s Green
               park in the heart of Dublin, I was so honoured. Much is known about his time on Deep Space Nine, but what is not
@@ -287,7 +267,7 @@
             </div>
         </div>
 
-          <div class="col-lg-4 col-md-3 col-sm-4 col-xs-12">
+          <div class="custom_col col-lg-3 col-md-3 col-sm-4 col-xs-12">
             <h5>Star Trek 2017 Series Rumours</h5>
             <p>As we all wait patiently for news on Star Trek 2017 all we can do is speculate. We now know who the main writers are
               going to be. We welcome Star Trek alumni Bryan Fuller as a show runner and Nicholas Meyer from the Star Trek films to the
@@ -330,53 +310,136 @@
            </div>
            </div>
           </div>
+          <div class="col-lg-2"></div>
     </section>
 
     <section class="article">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-            <h5>Rick Sternbach’s Top 10 Sizzlers</h5>
-            <p>To celebrate Rick Sternbach’s birthday (july 6th) I thought I’d run through my favourite</p>
-            <img id="articleimage" src="assets/top10_sizzlers.jpg"/>
-            <p>Star Trek designs designed by Rick.</p>
-            <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalLong8">Read More</button>
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModalLong8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle8" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="modaltitle">Rick Sternbach’s Top 10 Sizzlers</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-              <div class="modal-body">
-                <p>To celebrate Rick Sternbach’s birthday (july 6th) I thought I’d run through my favourite
-                Star Trek designs designed by Rick. It’s quite gob-smacking how much of an influence one person has had on how the Star
-                Trek universe looks.</p>
-                <div class="list-inline">
-                <img src="assets/top10_sizzlers.jpg" id="articleimage" alt="sizzler"/>
-                <img src="assets/rick.jpg" id="articleimage" alt="rick"/>
-              </div>
-                <p>What makes Star Trek so wonderful is the dedication from so many people coming at different angles to weave the tapestry
-                  together. It’s easy to celebrate all the wonderful actors that have played such iconic parts in Star Trek, but
-                   unfortunately those behind the scenes don’t get as much plaudits. I remember attending the Destination Star Trek
-                   convention in London in 2012 and the attention the actors got compared to the writers was obvious. I must admit,
-                   I was Rick_Sternbachone of those who didn’t allocate enough time to Ronald D. Moore, Brannon Braga and Ira Steven Behr.
-                   In my defense it’s hard to cram everything in! I have felt guilty about that and look forward to paying them the respect
-                   they deserve in the future.</p>
-              </div>
-              <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
+          <div class="col-lg-1"></div>
+    <div class="custom_col col-lg-3 col-md-3 col-sm-4 col-xs-12">
+      <h5>THE IRISH IN SPACE</h5>
+      <img id="articleimage" src="assets/article4.jpg"/>
+      <p>You may not know how important Ireland is to Star Trek.  Well we’re here to fix that.</p>
+      <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalLong4">Read More</button>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalLong4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle4" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modaltitle">THE IRISH IN SPACE</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        <div class="modal-body">
+          <div class="italic">
+            <p id="italics">You may not know how important Ireland is to Star Trek.  Well we’re here to fix that.</p>
           </div>
         </div>
-
+        <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
       </div>
+    </div>
+    </div>
+    </div>
 
-          <div class="col-lg-4 col-md-3 col-sm-4 col-xs-12">
+    <div class="custom_col col-lg-3 col-md-3 col-sm-4 col-xs-12">
+      <h5>Rick Sternbach’s Top 10 Sizzlers</h5>
+      <p>To celebrate Rick Sternbach’s birthday (july 6th) I thought I’d run through my favourite</p>
+      <img id="articleimage" src="assets/top10_sizzlers.jpg"/>
+      <p>Star Trek designs designed by Rick.</p>
+      <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalLong8">Read More</button>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalLong8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle8" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modaltitle">Rick Sternbach’s Top 10 Sizzlers</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        <div class="modal-body">
+          <p>To celebrate Rick Sternbach’s birthday (july 6th) I thought I’d run through my favourite
+          Star Trek designs designed by Rick. It’s quite gob-smacking how much of an influence one person has had on how the Star
+          Trek universe looks.</p>
+          <div class="list-inline">
+          <img src="assets/top10_sizzlers.jpg" id="articleimage" alt="sizzler"/>
+          <img src="assets/rick.jpg" id="articleimage" alt="rick"/>
+        </div>
+          <p>What makes Star Trek so wonderful is the dedication from so many people coming at different angles to weave the tapestry
+            together. It’s easy to celebrate all the wonderful actors that have played such iconic parts in Star Trek, but
+             unfortunately those behind the scenes don’t get as much plaudits. I remember attending the Destination Star Trek
+             convention in London in 2012 and the attention the actors got compared to the writers was obvious. I must admit,
+             I was Rick_Sternbachone of those who didn’t allocate enough time to Ronald D. Moore, Brannon Braga and Ira Steven Behr.
+             In my defense it’s hard to cram everything in! I have felt guilty about that and look forward to paying them the respect
+             they deserve in the future.</p>
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+
+    <div class="custom_col col-lg-3 col-md-3 col-sm-4 col-xs-12">
+      <h5>Salem Voyage</h5>
+      <img id="articleimage" src="assets/article5.jpg"/>
+      <p>Captain’s Log Supplemental. We’re low on coffee. Sensors show large amounts on a class M type planet.
+        In my eagerness to get here I’ve crashed Voyager into a lake close to our sensor readings.....</p>
+        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalLong9">Read More</button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalLong9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle9" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modaltitle">Salem Voyage</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          <div class="modal-body">
+            <img src="assets/article5.jpg" id="articleimage" alt="salem1"/>
+            <div class="italic">
+            <p id="italics">Captain’s Log Supplemental. We’re low on coffee. Sensors show large amounts on a class M type planet. In my eagerness to
+               get here I’ve crashed Voyager into a lake close to our sensor readings. I really need a cuppa.</p>
+             </div>
+            <img src="assets/salem.jpg" id="articleimage" alt="salem"/>
+            <div class="italic">
+            <p>Tuvok: Captain, my readings say our location bares an uncanny resemblance to  Salem in the 17th century.
+              Janeway: I don’t give a shit, get me my coffee.</p>
+            </div>
+            <img src="assets/salem2.jpg" id="articleimage" alt="salem2"/>
+            <div class="italic">
+            <p>Mary: ‘Coffee’ you say? You’ll find none here Catherine, I can assure you. Cotton: That sounds like a devil’s broth.</p>
+            </div>
+          </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="col-lg-2"></div>
+
+  </div>
+  </div>
+  </div>
+</section>
+
+
+
+
+    <section class="article">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="custom_col col-lg-3 col-md-3 col-sm-4 col-xs-12">
             <h5>Salem Voyage</h5>
             <img id="articleimage" src="assets/article5.jpg"/>
             <p>Captain’s Log Supplemental. We’re low on coffee. Sensors show large amounts on a class M type planet.
@@ -417,7 +480,7 @@
 
           </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+          <div class="custom_col col-lg-3 col-md-3 col-sm-4 col-xs-12">
             <h5>10 Things The New Star Trek 2017 Series Has To do</h5>
             <img id="articleimage" src="assets/article6.jpg"/>
             <p>I don’t think it is really that important who is behind the show, so long as they stick to
@@ -474,7 +537,7 @@
 
           </div>
 
-          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+          <div class="custom_col col-lg-3 col-md-3 col-sm-4 col-xs-12">
             <h5>Guide To Star Trek</h5>
             <p>Hugh from our Friends over at Geek Ireland has been telling the public about Star Trek.</p>
             <img id="articleimage" src="assets/poster4.jpg"/>
@@ -506,82 +569,42 @@
             </div>
           </div>
         </div>
+      </div>
 
+          <div class="col-lg-2"></div>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- Sitemap and other information -->
-    <section class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <div class="footer_box">
-              <div class="footer_header">
-                <h5>Sitemap</h5>
-                <div class="footer_content">
-                  <ul class="list-unstyled">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Articles</a></li>
-                    <li><a href="#">Media Gallery</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Merchandise</a></li>
-                    <li><a href="#">Behind the Scenes</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <div class="footer_content">
-              <h5>Contact Us</h5>
-              <p>Email: <a href="#" style="color: white;">info@startrekireland.com</a></p>
-              <div id="icons">
-                <h5>Follow Us</h5>
-                <ul class="list-inline">
-                  <a href="https://twitter.com/startrekeire/" target="_blank"><li class="list-inline-item"><i class="fab twitter fa-twitter-square fa-3x"></i></li></a>
-                  <a href="https://www.facebook.com/startrekeire/" target="_blank"><li class="list-inline-item"><i class="fab facebook fa-facebook-square fa-3x"></i></li></a>
-                  <a href="https://www.youtube.com/channel/UCIgCPEEvSShmmJd3UJe-vlw" target="_blank"><li class="list-inline-item"><i class="fab youtube fa-youtube-square fa-3x"></i></li></a>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="fot_col1 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <div>
-              <!-- Begin MailChimp Signup Form -->
-              <div id="mc_embed_signup">
-                <form action="https://localhost.us12.list-manage.com/subscribe/post?u=cc5af084b59a841daffa8a926&amp;id=f7ea415f90" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                  <div id="mc_embed_signup_scroll">
-                    <h5>Subscribe to our mailing list</h5>
-                    <div class="mc-field-group form-group">
-                      <label for="mce-EMAIL" class="sr-only">Email Address </label>
-                      <input type="email" value="" name="EMAIL" class="form-control required email" id="mce-EMAIL" placeholder="Email">
-                    </div>
-                    <div style="position: absolute; left: -5000px;"><input type="text" name="b_80eaa86e948880d8e05720a98_a489708aef" tabindex="-1"></div>
-                    <div class="form-group"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary" style="background: #5d5d5d; border-color: #5d5d5d"></div>
-                  </div>
-                  <div id="mce-responses" class="clear">
-                    <div class="response" id="mce-error-response" style="display:none"></div>
-                    <div class="response" id="mce-success-response" style="display:none"></div>
-                  </div>
-                </form>
-              </div>
-              <!--End mc_embed_signup-->
-            </div>
+<!-- Footassets -->
+  <section class="footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <div>Subscribe</div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <div>Contact us</div>
+          <div>Sitemap</div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <div id="icons">
+            <ul class="list-inline">
+              <a href="http://www.twitter.com" target="_blank"><li class="list-inline-item"><i class="fab twitter fa-twitter-square fa-3x"></i></li></a>
+              <a href="http://www.facebbok.com" target="_blank"><li class="list-inline-item"><i class="fab facebook fa-facebook-square fa-3x"></i></li></a>
+              <a href="http://www.instagram.com" target="_blank"><li class="list-inline-item"><i class="fab instagram fa-instagram fa-3x"></i></li></a>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="container">
-    <div class="mastfoot">
-      <div class="inner">
-        <p>&copy; 2018, Star Trek Éire</p>
-      </div>
-    </div>
   </section>
+
+  <div class="mastfoot">
+    <div class="inner">
+      <p>&copy; 2018, Yoki & Co., C&D LTD</p>
+    </div>
+  </div>
 
 
   <!-- Optional JavaScript -->
@@ -604,6 +627,8 @@
     $(this).removeData('bs.modal');
     });
   </script>
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="js/particle.js"></script>
 
 </body>
 </html>
