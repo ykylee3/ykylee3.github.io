@@ -1,22 +1,21 @@
-<!-- Star Trek Eire Prototype No 1 -->
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Star Trek Eire</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="css/animate.css">
-    <!-- Custom Stylesheet -->
-   <link rel="stylesheet" href="css/style.css">
-    <!-- Font Awesome -->
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-  </head>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Star Trek Éire</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Font Awesome -->
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+</head>
 
-  <body>
+<body>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -27,176 +26,501 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home </a>
+          <li class="nav-item">
+            <a class="nav-link" href="main.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="articles.html">Articles</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Articles <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="mediagallery.html">Media Gallery</a>
+            <a class="nav-link" href="gallery.html">Media Gallery</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Events
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="nav-link dropdown-item" href="events.html">Upcoming Events</a>
-              <a class="nav-link dropdown-item" href="#">Past Events</a>
+              <a class="dropdown-item" href="#">Upcoming Events</a>
+              <a class="dropdown-item" href="#">Past Events</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="merchandise.html">Merchandise</a>
+            <a class="nav-link" href="#">Merchandise</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="behindthescene.html">Behind the Scenes</a>
+            <a class="nav-link" href="#">Behind the Scenes</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="jumbotron">
-    <div class="container">
-      <div class="img-fluid mx-auto d-block text-center" id="logo">
-        <img class="logoimg animated fadeInUp" src="assets/STE_logo_201216.png">
+  <!-- Banner -->
+  <header class="banner2">
+    <div class="container-fluid">
+      <div class="row">
+        <img id="articles_main" src="assets/articles_main.jpg"></img>
+      </div>
+    </div>
+  </header>
+
+  <!-- Article Section - Bebito -->
+    <section class="article">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-md-2 col-sm-4 col-xs-12">
+            <h5>Rediscovering Star Trek Enterprise</h5>
+            <img id="articleimage" src="assets/article1.jpg"/>
+            <p>Did you watch Star Trek Enterprise when it first appeared on TV 15 years ago? </p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalLong">Read More</button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modaltitle">Rediscovering Star Trek Enterprise</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                <div class="modal-body">
+                  <div class="italic">
+                    <p id="italics">Did you watch Star Trek Enterprise when it first appeared on TV 15 years ago? Maybe you missed it or didn’t get to
+                     see it all. We here at Star Trek Éire love it! We highly recommend binge watching the whole 4 seasons.  We were
+                     hoping Netflix might bring out a 5th season of it but this looks less and less likely..</p>
+                    <p id="italics">Darryn Downey (@dar_dar) rediscovered Star Trek Enterprise recently and sent us in the review below.
+                    Thanks Darryn!</p>
+                  </div>
+                  <h6>Star Trek Enterprise</h6>
+                  <p>I was 13 when Enterprise started. Having been brought into the world of star trek by my dad, we both made a weekly thing to watch this new series.
+                  I can’t really remember when I stopped watching, but I would wager it was about half way through the second season. At the time I remember it not having the same feel as anything I had seen before so I got bored and dropped off. My dad battled on for a little longer, but having the same feeling he gave up as well.
+                  Years later I heard from various friends that I should have stuck with it as it picked up, so I always said I would revisit it.</p>
+                  <img src="assets/article1.jpg" id="articleimage" alt="article1"/>
+                </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+        </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+            <h5>2016 – A Year in Review</h5>
+            <img id="articleimage" src="assets/article2.jpg"/>
+            <p>Here's a breif review of some of our favourite moments from throughout 2016.</p>
+
+            <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalLong2">Read More</button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle2" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modaltitle">2016 – A Year in Review</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              <div class="modal-body">
+                <div class="italic">
+                  <p id="italics">Here's a breif review of some of our favourite moments from throughout 2016.</p>
+                </div>
+
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
+          </div>
 
-<!-- Article section begins here -->
-  <section class="article">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-3 col-md-2 col-sm-4 col-xs-12">
-          <h5>Article 1</h5>
-          <img id="articleimage" src="assets/poster2.jpg"/>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p id="clickme">Read more</p>
+          <div class="col-lg-3 col-md-2 col-sm-4 col-xs-12">
+            <h5>Garak</h5>
+            <p>Andrew Robinson plays Garak in ‘Tinker Tailor Soldier Spy’,
+               part of the Deep Space Nine TV series coming to Blu-ray someday we hope!</p>
+               <p>While we wait for that there is a brand new DS9 documentary coming out soon. You can follow them
+                 on twitter at ..... </p>
+                 <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalLong3">Read More</button>
+                 <!-- Modal -->
+                 <div class="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle3" aria-hidden="true">
+                 <div class="modal-dialog modal-lg" role="document">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <h5 class="modal-title" id="modaltitle">Garak</h5>
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                       <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                   <div class="modal-body">
+                     <div class="italic">
+                       <p id="italics">Andrew Robinson plays Garak in ‘Tinker Tailor Soldier Spy’, part of the Deep Space Nine TV series coming to Blu-ray someday we
+                        hope!</p>
+                        <p id="italics">While we wait for that there is a brand new DS9 documentary coming out soon. You can follow them on twitter at @ds9doc and
+                          register your interest at www.ds9whatweleftbehind.com</p>
+                     </div>
+                     <img src="assets/garak.jpg"/>
+
+                   </div>
+                   <div class="modal-footer">
+                   <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                   </div>
+                 </div>
+               </div>
+             </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+            <h5>THE IRISH IN SPACE</h5>
+            <img id="articleimage" src="assets/article4.jpg"/>
+            <p>You may not know how important Ireland is to Star Trek.  Well we’re here to fix that.</p>
+            <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalLong4">Read More</button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalLong4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle4" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modaltitle">THE IRISH IN SPACE</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              <div class="modal-body">
+                <div class="italic">
+                  <p id="italics">You may not know how important Ireland is to Star Trek.  Well we’re here to fix that.</p>
+                </div>
+              </div>
+              <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-          <h5>Article 2</h5>
-          <img id="articleimage" src="assets/minimal.jpg"/>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p id="clickme">Read more</p>
-        </div>
-        <div class="col-lg-3 col-md-2 col-sm-4 col-xs-12">
-          <h5>Article 3</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus orci nunc, tincidunt sodales
-            nisl gravida et. Donec ex quam, aliquam vel blandit ac, consequat ut leo. Nunc pellentesque ornare leo. Proin ligula elit,
-             laoreet in molestie non, venenatis ut felis. Donec convallis lorem nisl, vel gravida mauris blandit sit amet. Mauris
-             elementum porttitor erat eget pulvinar.</p>
-            <p id="clickme">Read more</p>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-          <h5>Article 4</h5>
-          <img id="articleimage" src="assets/poster3.jpg"/>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p id="clickme">Read more</p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="article">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-5 col-md-3 col-sm-4 col-xs-12">
-          <h5>Article 1</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus orci nunc, tincidunt sodales
-            nisl gravida et. Donec ex quam, aliquam vel blandit ac, consequat ut leo. Nunc pellentesque ornare leo. Proin ligula elit,
-             laoreet in molestie non, venenatis ut felis. Donec convallis lorem nisl, vel gravida mauris blandit sit amet. Mauris
-             elementum porttitor erat eget pulvinar. Maecenas nec mattis nisl. Fusce at elit purus. Nunc quis ligula facilisis,
-             lacinia eros vitae, vulputate libero. Nulla porttitor, ex bibendum fringilla blandit, mi leo tempus risus, sit amet
-             accumsan ipsum mauris in sapien.</p>
-            <p id="clickme">Read more</p>
+    <section class="article">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-5 col-md-3 col-sm-4 col-xs-12">
+            <h5>Watching Star Trek with The Next Generation!</h5>
+            <p>While giving my wife a lie on Saturday mornings, one of the things I’ve loved doing for the last couple of
+              years with my now 7 year old daughter is watching my favourite TV show Star Trek The Next Generation.  Some people
+              may say Star Trek is not for children, and there are some unsuitable episodes/moments, but I would argue there are
+              many life lessons to be learned through the medium of Star Trek, while opening their minds to science.</p>
+              <p>I think The Next Generation is the best series to introduce your kids to the Star Trek Universe.</p>
+              <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalLong5">Read More</button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalLong5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle5" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modaltitle">Watching Star Trek with The Next Generation!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                <div class="modal-body">
+                  <div class="italic">
+                    <p id="italics">While giving my wife a lie on on Saturday mornings, one of the things I’ve loved doing for the last couple of years with my now
+                      7 year old daughter is watching my favourite TV show Star Trek The Next Generation.  Some people may say Star Trek is not for children, and there
+                       are some unsuitable episodes/moments, but I would argue there are many life lessons to be learned through the medium of Star Trek, while opening
+                       their minds to science.</p>
+                      <img src="assets/kids.jpg" alt="kids"/>
+                  </div>
+                  <p>I think The Next Generation is the best series to introduce your kids to the Star Trek Universe. It’s bright and colourful, has plenty of relatively
+                     straightforward concepts such as diversity, equality and fairness, and Starfleet’s finest provide several great role models in multiple careers
+                     (there should be a better balance among the sexes but let’s hope Star Trek 2017 attends to that).</p>
+                      <p>If you’re thinking of showing your kids Star Trek, hopefully this guide will be of use to you. (Update: I did intend this to be a regular
+                        instalment, so maybe I’ll get back to it! I will go through each episode that I have watched with my daughter with a brief description, and
+                         potential lessons to be learned, including ratings and comments from our young reviewer Róisín!  Be prepared to pause some episodes now and
+                          again to help explain to your child what is going on, especially when it’s techno-babble heavy!  First up is season 4 episode ‘Data’s Day’.</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+            <h5>Odo – A Life in Pitchers</h5>
+            <p>I managed to catch up with one of my favourite stars recently, Odo.  When he suggested we meet in St. Stephen’s Green
+              park in the heart of Dublin, I was so honoured. Much is known about his time on Deep Space Nine, but what is not
+              generally known is his love affair with Earth, and in particular acting. </p>
+
+              <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalLong6">Read More</button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalLong6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle6" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modaltitle">Odo – A Life in Pitchers</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                <div class="modal-body">
+                  <p>I managed to catch up with one of my favourite stars recently, Odo.  When he suggested we meet in St. Stephen’s Green park in the heart of Dublin, I was so honoured.
+                    Much is known about his time on Deep Space Nine, but what is not generally known is his love affair with Earth, and in particular acting.  Media reviews have
+                    included some lovely remarks – Changing Times June 2008: ‘Odo’s shape shifting abilities are unprecedented’.  Vanity Fair just this year: ‘Odo’s few years in the
+                    Great Link have given him such a range of characters that he can dip into at a moment’s notice’. To help us visualise this love affair, he kindly provided me with
+                    a number of pictures that he holds close to his heart.</p>
+                    <img src="assets/odo.jpg" alt="odo"/>
+                      <p>After Odo’s brief visit to Earth in 1947, he always intended on coming back a few years later as he ‘wanted to immerse himself’.  It was a mixed experience
+                        at first. Due to the whole ‘alien’ issue that still exists in some circles, he found himself limited in career options.  He decided to try his hand at acting.
+                         As Odo admits ‘after I initially tried to tell a few humans about who I really was, I mainly got a very scared reaction, well apart from Willie’. Odo is
+                     referring to William Wyler who gave him his first role, albeit risky, as the spike on the Roman chariot in ‘Ben Hur’.</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+              </div>
+            </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-          <h5>Article 2</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus orci nunc, tincidunt sodales
-            nisl gravida et. Donec ex quam, aliquam vel blandit ac, consequat ut leo. Nunc pellentesque ornare leo. Proin ligula elit,
-             laoreet in molestie non, venenatis ut felis. Donec convallis lorem nisl, vel gravida mauris blandit sit amet. Mauris
-             elementum porttitor erat eget pulvinar. Maecenas nec mattis nisl. Fusce at elit purus. Nunc quis ligula facilisis,
-             lacinia eros vitae, vulputate libero. Nulla porttitor, ex bibendum fringilla blandit, mi leo tempus risus, sit amet
-             accumsan ipsum mauris in sapien.</p>
-            <p id="clickme">Read more</p>
+
+          <div class="col-lg-4 col-md-3 col-sm-4 col-xs-12">
+            <h5>Star Trek 2017 Series Rumours</h5>
+            <p>As we all wait patiently for news on Star Trek 2017 all we can do is speculate. We now know who the main writers are
+              going to be. We welcome Star Trek alumni Bryan Fuller as a show runner and Nicholas Meyer from the Star Trek films to the
+              writers room. So far though we’ve been given only rumours and hints at what this new series will be, when and where it will
+               be set.</p>
+               <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalLong7">Read More</button>
+               <!-- Modal -->
+               <div class="modal fade" id="exampleModalLong7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle7" aria-hidden="true">
+               <div class="modal-dialog modal-lg" role="document">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <h5 class="modal-title" id="modaltitle">Star Trek 2017 Series Rumours</h5>
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                     </button>
+                   </div>
+                 <div class="modal-body">
+                   <p>As we all wait patiently for news on Star Trek 2017 all we can do is speculate. We now know who the main writers are
+                     going to be. We welcome Star Trek alumni Bryan Fuller as a show runner and Nicholas Meyer from the Star Trek films to
+                     the writers room. So far though we’ve been given only rumours and hints at what this new series will be, when and where
+                      it will be set.</p>
+                   <div class="italic">
+                     <p id="italics">Which Universe?</p>
+                   </div>
+                   <p>The consensus seems to be that this new series will be set in the prime universe. There are several reasons to believe
+                      this. As we’ve mentioned in previous articles it’s very unlikely to be set in the JJ Abrams reboot universe for legal
+                      reasons. Paramount own the movie rights to Star Trek and CBS retain the Television rights. This means that even if they
+                       wanted to make a series set in the new timeline they would have to make a deal with Paramount. A deal that wouldn’t be in CBS’s
+                        financial interest. This is a good thing as it means CBS are in a position to realistically do two things. Set ST17 in the
+                         original canon universe or create their own new, new timeline. Creating another new timeline makes absolutely no sense as they
+                         should know that they have already alienated millions of fans with the reboots. For the money it makes sense to stick to the
+                         canon universe.</p>
+                 </div>
+                 <div class="modal-footer">
+                 <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                 </div>
+               </div>
+             </div>
+             </div>
+           </div>
+           </div>
+          </div>
+    </section>
+
+    <section class="article">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+            <h5>Rick Sternbach’s Top 10 Sizzlers</h5>
+            <p>To celebrate Rick Sternbach’s birthday (july 6th) I thought I’d run through my favourite</p>
+            <img id="articleimage" src="assets/top10_sizzlers.jpg"/>
+            <p>Star Trek designs designed by Rick.</p>
+            <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalLong8">Read More</button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalLong8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle8" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modaltitle">Rick Sternbach’s Top 10 Sizzlers</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              <div class="modal-body">
+                <p>To celebrate Rick Sternbach’s birthday (july 6th) I thought I’d run through my favourite
+                Star Trek designs designed by Rick. It’s quite gob-smacking how much of an influence one person has had on how the Star
+                Trek universe looks.</p>
+                <div class="list-inline">
+                <img src="assets/top10_sizzlers.jpg" id="articleimage" alt="sizzler"/>
+                <img src="assets/rick.jpg" id="articleimage" alt="rick"/>
+              </div>
+                <p>What makes Star Trek so wonderful is the dedication from so many people coming at different angles to weave the tapestry
+                  together. It’s easy to celebrate all the wonderful actors that have played such iconic parts in Star Trek, but
+                   unfortunately those behind the scenes don’t get as much plaudits. I remember attending the Destination Star Trek
+                   convention in London in 2012 and the attention the actors got compared to the writers was obvious. I must admit,
+                   I was Rick_Sternbachone of those who didn’t allocate enough time to Ronald D. Moore, Brannon Braga and Ira Steven Behr.
+                   In my defense it’s hard to cram everything in! I have felt guilty about that and look forward to paying them the respect
+                   they deserve in the future.</p>
+              </div>
+              <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-4 col-md-3 col-sm-4 col-xs-12">
-          <h5>Article 3</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus orci nunc, tincidunt sodales
-            nisl gravida et. Donec ex quam, aliquam vel blandit ac, consequat ut leo. Nunc pellentesque ornare leo. Proin ligula elit,
-             laoreet in molestie non, venenatis ut felis. Donec convallis lorem nisl, vel gravida mauris blandit sit amet. Mauris
-             elementum porttitor erat eget pulvinar. Maecenas nec mattis nisl. Fusce at elit purus. Nunc quis ligula facilisis,
-             lacinia eros vitae, vulputate libero. Nulla porttitor, ex bibendum fringilla blandit, mi leo tempus risus, sit amet
-             accumsan ipsum mauris in sapien.</p>
-            <p id="clickme">Read more</p>
+
+      </div>
+
+          <div class="col-lg-4 col-md-3 col-sm-4 col-xs-12">
+            <h5>Salem Voyage</h5>
+            <img id="articleimage" src="assets/article5.jpg"/>
+            <p>Captain’s Log Supplemental. We’re low on coffee. Sensors show large amounts on a class M type planet.
+              In my eagerness to get here I’ve crashed Voyager into a lake close to our sensor readings.....</p>
+              <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalLong9">Read More</button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalLong9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle9" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modaltitle">Salem Voyage</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                <div class="modal-body">
+                  <img src="assets/article5.jpg" id="articleimage" alt="salem1"/>
+                  <div class="italic">
+                  <p id="italics">Captain’s Log Supplemental. We’re low on coffee. Sensors show large amounts on a class M type planet. In my eagerness to
+                     get here I’ve crashed Voyager into a lake close to our sensor readings. I really need a cuppa.</p>
+                   </div>
+                  <img src="assets/salem.jpg" id="articleimage" alt="salem"/>
+                  <div class="italic">
+                  <p>Tuvok: Captain, my readings say our location bares an uncanny resemblance to  Salem in the 17th century.
+                    Janeway: I don’t give a shit, get me my coffee.</p>
+                  </div>
+                  <img src="assets/salem2.jpg" id="articleimage" alt="salem2"/>
+                  <div class="italic">
+                  <p>Mary: ‘Coffee’ you say? You’ll find none here Catherine, I can assure you. Cotton: That sounds like a devil’s broth.</p>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+            <h5>10 Things The New Star Trek 2017 Series Has To do</h5>
+            <img id="articleimage" src="assets/article6.jpg"/>
+            <p>I don’t think it is really that important who is behind the show, so long as they stick to
+              these 10 very important things.</p>
+              <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalLong10">Read More</button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalLong10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle10" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modaltitle">10 Things The New Star Trek 2017 Series Has To do</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                <div class="modal-body">
+                  <div class="italic">
+                  <p id="italics">As I’m sure you have all heard by now that CBS is making a new TV series of Star Trek. It’s due to air in
+                     early 2017 on the coat tails of the franchise’s 2016 50th anniversary. I am a huge Star Trek fan but I’m also a mostly
+                     reasonable one. This week the internet went ballistic with hatred for this new show that hasn’t even been written yet.
+                     One reason is that Alex Kurtzman who co-wrote the first two reboot films is behind the project. Honestly I don’t think
+                     it is really that important who is behind the show, so long as they stick to these 10 very important things.</p>
+                     <img src="assets/article6.jpg" id="articleimage" alt="things"/>
+                   </div>
+                   <div class="bold">
+                   <p>1) Keep it Star Trek</p>
+                 </div>
+                  <p>This is the most important thing that has to happen. Keep Star Trek as it should be. Star Wars is a fantasy in space,
+                    “NuTrek” is a Sci Fi action film series. Star Trek the TV show has always been pure Science Fiction that comments on
+                    socio-political issues all while being fun with action and adventure. It needs to have heart and make the audience
+                    think and ponder. Star Trek aired in 1966 and broke profound social issues on racism and war, putting a mirror up to
+                    society. It was this ground breaking social commentary that made Star Trek the dynasty it is today. It’s a tone of
+                    morality that is by far the biggest thing missing from the last two reboot films. Without a sense of morals and tone,
+                    any new series simply wouldn’t be Star Trek.</p>
+                    <div class="bold">
+                    <p>2) Keep the Original Cannon</p>
+                  </div>
+                  <p>Star Trek as a TV series, even before the JJ Abrams reboot, kept the feature films very separate from the TV show. Although
+                     the films were canon stories, their style, mood and tone were very different. From Star Trek The Original Series (TOS) all the way
+                     up to the end of Star Trek Voyager (not to discount the prequel series Enterprise) a whole world of canon, history, characters and
+                      rules were long established. Despite the reboots, it would be a shame to stray away from this long fan loved history of 703 episodes
+                       that spanned five TV shows. To just disregard the 40 plus years of stories and history that were established to attract new
+                       audiences would be a crying shame. Many fans are calling for their dream version of Star Trek. The problem there is that everyone
+                       has a different vision. I’ll be happy if the new series is set after Voyager, before The Next Generation or set during the Romulan
+                        war between Enterprise and TOS , as long as it’s not the NuTrek alternate timeline. A new series has to add to the legacy, not
+                        start over.</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+            <h5>Guide To Star Trek</h5>
+            <p>Hugh from our Friends over at Geek Ireland has been telling the public about Star Trek.</p>
+            <img id="articleimage" src="assets/poster4.jpg"/>
+            <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalLong11">Read More</button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalLong11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle11" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modaltitle">Guide To Star Trek</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              <div class="modal-body">
+                <div class="italic">
+                <p id="italics">Hugh from our Friends over at Geek Ireland has been telling the public about Star Trek. We’ve decided to share his articles here:</p>
+                 </div>
+                 <div class="bold">
+                 <p>The Federation</p>
+                <p>The Klingon Empire</p>
+                <p>The Romulan Star Empire</p>
+               </div>
+
+              </div>
+              <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="article">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-          <h5>Article 1</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <img id="articleimage" src="assets/poster2.jpg"/>
-          <p id="clickme">Read more</p>
-        </div>
-        <div class="col-lg-4 col-md-3 col-sm-4 col-xs-12">
-          <h5>Article 2</h5>
-          <img id="articleimage" src="assets/poster5.png"/>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p id="clickme">Read more</p>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-          <h5>Article 3</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <img id="articleimage" src="assets/poster2.jpg"/>
-            <p id="clickme">Read more</p>
-        </div>
-        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
-          <h5>Article 4</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <img id="articleimage" src="assets/poster4.jpg"/>
-            <p id="clickme">Read more</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Sitemap and other information -->
+    </section>
+<!-- Footassets -->
   <section class="footer">
     <div class="container-fluid">
       <div class="row">
-        <div class="fot_col1 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-          <div>
-            <!-- Begin MailChimp Signup Form -->
-            <div id="mc_embed_signup">
-            <form action="https://localhost.us12.list-manage.com/subscribe/post?u=cc5af084b59a841daffa8a926&amp;id=f7ea415f90" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <div id="mc_embed_signup_scroll">
-            	<h4>Subscribe to our mailing list</h4>
-              <div class="mc-field-group form-group">
-                  <label for="mce-EMAIL" class="sr-only">Email Address </label>
-                  <input type="email" value="" name="EMAIL" class="form-control required email" id="mce-EMAIL" placeholder="Email">
-              </div>
-              <div style="position: absolute; left: -5000px;"><input type="text" name="b_80eaa86e948880d8e05720a98_a489708aef" tabindex="-1" value=""></div>
-                <div class="form-group"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary" style="background: #5d5d5d; border-color: #5d5d5d"></div>
-              </div>
-                <div id="mce-responses" class="clear">
-                  <div class="response" id="mce-error-response" style="display:none"></div>
-                  <div class="response" id="mce-success-response" style="display:none"></div>
-                </div>
-              </form>
-            </div>
-            <!--End mc_embed_signup-->
-        </div>
-      </div>
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <div>Subscribe</div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <div>Contact us</div>
+          <div>Sitemap</div>
           <div class="footer_box">
             <div class="footer_header">
               <h5>Sitemap</h5>
@@ -215,13 +539,11 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-          <h5>Contact us</h5>
-        <p><a href="#" style="color: white;">info@startrekireland.com</a></p>
           <div id="icons">
             <ul class="list-inline">
-              <a href="https://twitter.com/startrekeire/" target="_blank"><li class="list-inline-item"><i class="fab twitter fa-twitter-square fa-3x"></i></li></a>
-              <a href="https://www.facebook.com/startrekeire/" target="_blank"><li class="list-inline-item"><i class="fab facebook fa-facebook-square fa-3x"></i></li></a>
-              <a href="https://www.youtube.com/channel/UCIgCPEEvSShmmJd3UJe-vlw" target="_blank"><li class="list-inline-item"><i class="fab fa-youtube fa-3x"></i></li></a>
+              <a href="http://www.twitter.com" target="_blank"><li class="list-inline-item"><i class="fab twitter fa-twitter-square fa-3x"></i></li></a>
+              <a href="http://www.facebbok.com" target="_blank"><li class="list-inline-item"><i class="fab facebook fa-facebook-square fa-3x"></i></li></a>
+              <a href="http://www.instagram.com" target="_blank"><li class="list-inline-item"><i class="fab instagram fa-instagram fa-3x"></i></li></a>
             </ul>
           </div>
         </div>
@@ -235,20 +557,27 @@
     </div>
   </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/scrollNav.js"></script>
-    <script src="js/creative.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-  </body>
+  <!-- Custom scripts for this template -->
+  <script src="js/scrollNav.js"></script>
+  <script src="js/creative.min.js"></script>
+  <script src="js/bootstrap-reload-remote.js" async></script>
+  <script type="text/javascript">
+    $('body').on('hidden.bs.modal', '.modal', function () {
+    $(this).removeData('bs.modal');
+    });
+  </script>
+
+</body>
 </html>
