@@ -140,25 +140,23 @@ h2 {
   z-index:3;
 }
 
-.logoimg{
+.navlogoimg{
+  width: 50px;
+  height: 50px;
 }
 
 /* ---- particles.js container ---- */
 
 #particles-js {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-image: url("");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 50% 50%;
-	background: #6819e8; /* Old browsers */
-	background: -moz-linear-gradient(left, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6819e8', endColorstr='#6980f2',GradientType=1 ); /* IE6-9 */
-}
+  position:relative;
+  width: 100vw;
+  height: 50vh;
+  background-color: #b61924;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-position: 50% 50%;*/
+  }
 
 /*Basic styling of rows*/
 .firstrow,
@@ -471,28 +469,34 @@ h2 {
 
 /*gallery styles*/
 .container.gallery-container {
-    background-color: #fff;
-    color: #35373a;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000000;
     min-height: 100vh;
-    padding: 30px 50px;
+    padding: 30px 30px;
 }
 
 .gallery-container h1 {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     font-family: 'Droid Sans', sans-serif;
     font-weight: bold;
 }
 
 .gallery-container p.page-description {
     text-align: center;
-    margin: 25px auto;
+    margin: 10px auto;
     font-size: 18px;
-    color: #999;
+    color: #000000;
 }
 
 .tz-gallery {
-    padding: 40px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.gallerywidget.tz-gallery {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 /* Override bootstrap column paddings */
@@ -668,6 +672,11 @@ h2 {
 #clickme {
   font-style: italic;
   font-weight: bold;
+}
+
+/* Twitter embed format */
+.twitter{
+  padding: 20px 0;
 }
 
 /* modal */
