@@ -665,6 +665,29 @@ h2 {
   font-weight: bold;
 }
 
+/* modal */
+
+.modal-header h5 {
+  color: black;
+}
+
+.modal-body .italic {
+  color: black;
+  font-style: italic;
+}
+
+.modal-body h6 {
+  color: black;
+}
+
+.modal-body p {
+  color: black;
+}
+
+.modal-body .bold {
+  font-weight: bold;
+}
+
 @media screen and (max-width: 480px) {
   .jumbotron{
     height: 200px;
