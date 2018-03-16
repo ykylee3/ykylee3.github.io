@@ -589,22 +589,56 @@ h2 {
   height: auto;
 }
 
+/* fix by Bebito - 15/03/2018 */
+/* particle system */
+#particles-js {
+  position:relative;
+  width: 100vw;
+  height: 70vh;
+  background-color: #000;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-position: 50% 50%;*/
+  }
+
+/* column styles for the article page */
+/* fontface */
+  @font-face {
+   font-family: 'mytitlefont';
+   src: url('../fonts/TNG_Title.ttf') format('truetype');
+  }
+
+  #articlehead {
+    font-family: 'mytitlefont';
+    font-size: 1.8em;
+    padding: 10px;
+  }
+
+/* column styles */
+  .custom_col {
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2%;
+    margin: 5px;
+    padding-right: 5px;
+  }
+
+/* column headings */
+.custom_col h5 {
+  /* font-family: 'mytitlefont'; */
+  font-size: 1.5em;
+  font-style: italic;
+  padding: 10px;
+}
+
 /* For the articles page */
 /* for the holding container */
 .article {
   width: 100%;
   margin: 10px 0px;
 }
-/* column styles if needed */
-.col-lg-2, .col-lg-3, .col-md-3, .col-sm-4, .col-xs-12 {
 
-}
-/* image in the article */
-#articleimage {
-  padding: 5px;
-  width: inherit;
-  height: 260px;
-}
 /* text in the article */
 .article p {
   text-align: justify;
@@ -618,6 +652,26 @@ h2 {
 #clickme {
   font-style: italic;
   font-weight: bold;
+}
+
+/* sizing for the article images */
+  #articleimage {
+    padding: 10px;
+    height: 250px;
+    width: 300px;
+  }
+
+/* buttons on the articles */
+.btn {
+  background-color: #FF4343;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-color: #000;
+  float: left;
+}
+
+/* column styles if needed */
+.col-lg-2, .col-lg-3, .col-md-3, .col-sm-4, .col-xs-12 {
+
 }
 
 #icons {
