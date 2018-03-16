@@ -114,7 +114,6 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  border-radius: 0%;
   height: 500px;
   width: 100%;
 }
@@ -147,14 +146,6 @@ h2 {
   width: 100%;
   height: 50%;
 }
-
-/* #banner_img {
-  position: absolute;
-  width: 100%;
-  height: 600px;
-  background-size: cover;
-  background-repeat: repeat-x;
-} */
 
 #logo {
   position: absolute;
@@ -544,6 +535,19 @@ h2 {
   background-size: cover;
   /*background-position: 50% 50%;*/
   }
+
+/*
+.color3 #particles-js{
+  background-color: #000;
+}
+
+.color4 #particles-js{
+  background-color: #f42222;
+}
+
+.color5 #particles-js{
+  background-color: #f49c22;
+} */
 
   /* column styles for the article page */
 /* fontface */
